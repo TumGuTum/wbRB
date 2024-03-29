@@ -1,0 +1,157 @@
+@media (max-width: 1130px){
+
+    .header-title{
+        font-size: 30px;
+        text-align: center;
+    }
+    .header{
+        border-radius: 0 0 20px 20px;
+    }
+    .nav-list{
+        display: none;
+    }
+    .nav__user{
+        display: none;
+    }
+    .mobile-nav-btn{
+        display: block;
+    }
+    .about-us__title {
+        font-size: 26px;
+        margin-top: 20px;
+    }
+    .about-us__text {
+		font-size: 14px;
+    }
+    .about-us__img{
+        margin-left: 20px;
+    }
+    .container1 {
+        padding: 0 var(--container-padding);
+        max-width: var(--container-width);
+        margin: 0 auto;
+      }
+      .about-us__title_lector {
+        font-size: 42px;
+        font-weight: 600;
+        text-align: right;
+        margin-bottom: 30px;
+      
+      }
+      .containerL .gallery {
+        display: flex;
+        flex-wrap: wrap; /* Добавляем wrap */
+        gap: 20px;
+        padding: 20px;
+        overflow-x: auto;
+        flex-shrink: 0;
+        width: 100%;
+      }
+      .containerL .gallery {
+        display: flex;
+        flex-wrap: nowrap; /* Запрещаем перенос на новую строку */
+        gap: 20px;
+        padding: 20px;
+        overflow-x: auto;
+        flex-shrink: 0;
+        width: 100%;
+      }
+      .containerL .gallery {
+        display: flex;
+        flex-wrap: wrap; /* Разрешаем перенос на новую строку */
+        gap: 20px;
+        padding: 20px;
+        overflow-x: auto;
+        flex-shrink: 0;
+        width: 100%;
+        grid-template-columns: auto; /* Изменяем количество колонок на одну */
+      }
+      .about-us__title_lector{
+        display: none;
+      
+      }
+      .circle1{
+        background:  #f3f3f3;
+        border-radius: 50%;
+        filter: blur(1em);
+        
+      }
+      #sceneN{
+        position: absolute;
+        left: -29px;
+        top: -300px;
+      }
+      #sceneN .circle1{
+        width: 150px;
+        height: 150px;
+      
+      
+      }
+            
+
+      
+}
+@media (max-width: 1130px) {
+  .course-container {
+    justify-content: flex-start; /* Изменяем выравнивание для мобильных устройств */
+  }
+  .course-gallery-item {
+    margin: 10px 5px; /* Уменьшаем отступы между элементами для мобильных устройств */
+  }
+}
+@media (max-width: 1130px) {
+  .contacts-container {
+      flex-direction: column;
+  }
+
+  .contacts-info,
+  .contact-form {
+      width: 100%;
+      margin-bottom: 30px;
+  }
+
+  .social-icons {
+      text-align: center;
+  }
+
+  .social-icons a {
+      margin-right: 10px;
+  }
+}
+
+@media (max-width: 1130px) {
+
+    .about-us {
+        gap: 24px;
+    }
+}
+@media (max-width: 1130px) {
+
+
+    .about-us {
+        grid-template-columns: 1fr;
+    }
+
+    .about-us__desc {
+        gap: 18px;
+    }
+
+}
+@media (max-width: 820px) {
+    .value {
+      padding: 32px 16px;
+      padding-right: 8px;
+    }
+    .controls #LeftBtn, .controls #RightBtn{
+        display: none;
+      }
+  }
+  @media (max-width: 1184px) {
+    .container-right {
+      padding-left: var(--container-padding);
+  
+  
+    }
+  }
+
+  
